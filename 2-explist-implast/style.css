@@ -1,0 +1,29 @@
+:root{
+    --blue:#3b93c7;
+    --black:#000;
+}
+
+html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    box-sizing: border-box;
+    color:white;
+}
+*,
+:after,
+:before{
+    box-sizing: inherit;
+}
+body{
+    margin: 30px;
+    font-size: 30px;
+}
+
+.item{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+    border: 1px solid black;
+    border-radius: 10px;
+}

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 40px 10px;
+    display: grid;
+    height: 400px;
+    grid-template-columns: repeat(3,100px);
+    grid-gap: 20px;
+    border:2px solid green;
+    justify-content: center;
+    align-content: start;
+
+
+}
+
+/*
+justfiy-items
+align-items
+
+justfiy-content
+align-content
+
+justfiy-self
+align-slef
+*/
+
+
+.item{
+    background-color: cornflowerblue;
+}
+.item5{
+    background-color: red;
+    justify-self: stretch;
+}

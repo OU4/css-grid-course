@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+main{
+    background-color: white;
+    max-width: 900px;
+    min-height: 300px;
+    margin:  7rem auto ;
+    padding: 20px;
+    grid-gap: 10px;
+    display: grid;
+    border: 1px solid black;
+    box-shadow: 13px 2px  rgba(15, 221, 176, 0.9);
+        grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+h2{
+
+    font-size: 3rem;
+    margin-bottom:  6.8rem ;
+    line-height: 1;
+    text-align: center;
+    color: black;
+    padding: 0;
+    position: relative;
+    width: 200px;
+    top: 0;
+    background:rgba(15, 221, 176, 0.9);
+    text-align: center;
+}
