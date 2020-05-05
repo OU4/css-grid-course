@@ -1,2 +1,2 @@
-# css-grid-course materials of the Course
+# The materials of the Course
 
